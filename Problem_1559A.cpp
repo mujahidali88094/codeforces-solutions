@@ -14,9 +14,9 @@ bool arrayHasSameElement(int *arr, int len)
 int main()
 {
   // input from file
-  std::ifstream in("input.txt");
-  std::streambuf *cinbuf = std::cin.rdbuf(); // save old buf
-  std::cin.rdbuf(in.rdbuf());
+  // std::ifstream in("input.txt");
+  // std::streambuf *cinbuf = std::cin.rdbuf(); // save old buf
+  // std::cin.rdbuf(in.rdbuf());
 
   int testCasesCount;
   cin >> testCasesCount;
